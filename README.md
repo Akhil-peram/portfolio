@@ -1,2 +1,3 @@
-# portfolio
-A simple portfolio page
+# Portfolio
+A simple portfolio page using HTML,CSS,JS.
+
