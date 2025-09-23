@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio - Developer & Learner</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>Portfolio</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link contact-btn">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Akhil</span></h1>
+            <h2>Developer & Continuous Learner</h2>
+            <p>Passionate about programming, machine learning, and building innovative solutions. Currently exploring Python, Java, and AI technologies.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">View My Work</a>
+                <a href="#contact" class="btn secondary-btn">Get In Touch</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-placeholder">
+                <i class="fas fa-code"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a dedicated self-taught developer with a strong passion for technology and continuous learning. My journey spans across multiple programming languages and emerging technologies.</p>
+                    
+                    <div class="tabs">
+                        <button class="tab-btn active" data-tab="skills">Skills</button>
+                        <button class="tab-btn" data-tab="experience">Learning Path</button>
+                        <button class="tab-btn" data-tab="education">Education</button>
+                    </div>
+
+                    <div class="tab-content active" id="skills">
+                        <ul>
+                            <li><strong>Programming:</strong> Python (Intermediate), Java</li>
+                            <li><strong>Web Technologies:</strong> HTML, CSS, JavaScript</li>
+                            <li><strong>AI/ML:</strong> Machine Learning Fundamentals</li>
+                            <li><strong>Tools:</strong> Obsidian, Git, VS Code</li>
+                            <li><strong>Areas of Interest:</strong> Web Scraping, Data Science, Cybersecurity</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-content" id="experience">
+                        <div class="timeline-item">
+                            <h4>2025 - Present</h4>
+                            <h5>Advanced Programming Studies</h5>
+                            <p>Focusing on Python intermediate to advanced concepts and Java development.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>2024 - 2025</h4>
+                            <h5>Machine Learning Journey</h5>
+                            <p>Comprehensive study of ML algorithms, data science, and AI technologies.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>2024</h4>
+                            <h5>Programming Fundamentals</h5>
+                            <p>Self-taught programming basics and established strong foundation in Python.</p>
+                        </div>
+                    </div>
+
+                    <div class="tab-content" id="education">
+                        <div class="education-item">
+                            <h4>Self-Directed Learning</h4>
+                            <p>Comprehensive programming and machine learning education through structured online resources, documentation, and hands-on projects.</p>
+                        </div>
+                        <div class="education-item">
+                            <h4>Specialized Focus Areas</h4>
+                            <p>Python Programming, Java Development, Machine Learning, Web Scraping, Data Science, and Cybersecurity fundamentals.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-percent="75"></div>
+                    </div>
+                    <p>Intermediate level with focus on data structures, OOP, and web scraping</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <h3>Java</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-percent="60"></div>
+                    </div>
+                    <p>Object-oriented programming and application development</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Machine Learning</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-percent="65"></div>
+                    </div>
+                    <p>Algorithms, data science, and AI model development</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-percent="70"></div>
+                    </div>
+                    <p>HTML, CSS, JavaScript for responsive web applications</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-spider"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Web Scraping Tool</h3>
+                        <p>Python-based web scraping application with data processing capabilities and export functionality.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>BeautifulSoup</span>
+                            <span>Requests</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn small-btn">Live Demo</a>
+                            <a href="#" class="btn small-btn secondary">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Data Analysis Dashboard</h3>
+                        <p>Interactive dashboard for data visualization and analysis using Python and modern web technologies.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>Matplotlib</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn small-btn">Live Demo</a>
+                            <a href="#" class="btn small-btn secondary">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>ML Classification Model</h3>
+                        <p>Machine learning project implementing classification algorithms with model evaluation and optimization.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Scikit-learn</span>
+                            <span>NumPy</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn small-btn">Live Demo</a>
+                            <a href="#" class="btn small-btn secondary">Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect!</h3>
+                    <p>I'm always open to discussing new opportunities, collaboration on interesting projects, or sharing knowledge about programming and technology.</p>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>akhil01011@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <p>linkedin.com/in/peram-Akhil</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h4>GitHub</h4>
+                            <p>github.com/Akhil-peram</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" id="email" required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea id="message" required rows="5"></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Your Portfolio. Built with passion and code.</p>
+            <div class="social-links">
+                <a href="linkedin.com/in/peram-Akhil"><i class="fab fa-linkedin"></i></a>
+                <a href="github.com/Akhil-peram"><i class="fab fa-github"></i></a>
+                <a href="instagram.com/akhil__ram_11"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
